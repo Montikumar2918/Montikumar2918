@@ -1,0 +1,23 @@
+//IIFE function using : ()()
+let arrAdd = 0;
+(function (arr) {
+    arr.forEach((value) => {
+        arrAdd += value;
+    });
+}
+)([1,2, 3, 4, 5, 6, 7, 8, 9]);
+console.log("sum of array:", arrAdd);
+
+
+// using anonyous function:
+let add = 0;
+let arr = function (value) {
+    value.forEach((key) => {
+        add = add + key;
+
+    });
+
+
+};
+arr([1,2, 3, 4, 5, 6, 7, 8, 9]);
+console.log("some of array:", add);
