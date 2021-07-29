@@ -1,0 +1,14 @@
+let resume={ 
+  "firstName":"Monti",
+  "lastName":"Kumar",
+  "age":23,
+  "intresting":["c","Java","javaScript"],
+  "email":"kumarmonti445@gmail.com",
+  "area":{"native":"Gautam Budh Nagar","living":"Chhapraula"},
+
+
+};
+console.log(resume);
+//expected: whole object.
+console.log(resume.area.native);
+//expected: Gautam Budh Nagar
